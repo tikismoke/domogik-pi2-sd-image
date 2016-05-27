@@ -4,7 +4,7 @@ Repo to host the pi2 sd card of domogik in deve branch
 SSH enable by default
 Dhcp enable
 
-Domogik/Domoweb use default port, no ssl, and default login/password (admin/123)
+Domogik/Domoweb use default port (40406/40404), no ssl, and default login/password (admin/123)
 
 User/password for ssh:
 pi/raspberry
