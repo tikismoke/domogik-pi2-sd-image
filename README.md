@@ -48,3 +48,8 @@ Plugin install with this version:
 -wol
 
 https://snag.gy/PiFH6L.jpg
+
+Using ramlog to reduce log write on sdcard
+
+Tuning mysql from there:
+http://workshop.botter.ventures/2014/02/09/how-to-install-and-optimize-mysql-on-raspberry-pi/
