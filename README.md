@@ -41,3 +41,5 @@ Plugin install with this version:
 -wheather
 
 -wol
+
+https://snag.gy/PiFH6L.jpg
