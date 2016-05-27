@@ -25,6 +25,8 @@ In /etc/domogik/domogik-mq-cfg change ip by your pi2 IP
 
 Plugin install with this version:
 
+-diskfree
+
 -generic
 
 -karotz
