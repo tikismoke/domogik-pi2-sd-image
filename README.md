@@ -1,4 +1,7 @@
 # domogik-pi2-sd-image
+
+For now you need an 8go SD card, but it will be solved a day.
+
 Repo to host the pi2 sd card of domogik in deve branch
 
 SSH enable by default
