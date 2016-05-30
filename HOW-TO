@@ -5,9 +5,9 @@ Based on last Raspbian-jessie-lite (2016-05-10)
 
 Remenber to expand filesysem at first boot
 
-Connect a keyboard and a screen to the pi2, login as pi/raspberry, sudo raspi-config and expand filesystem.
-It could be slow to login on 1st boot don't worry. After that reboot to aplly new filesystem.
-When expand will be finished, you can put your pi in another place and play with domogik.
+- Connect a keyboard and a screen to the pi2, login as pi/raspberry, sudo raspi-config and expand filesystem.
+- It could be slow to login on 1st boot don't worry. After that reboot to aplly new filesystem.
+- When expand will be finished, you can put your pi in another place and play with domogik.
 
 For me it tooks ~1 and 2 minutes to have the domogik admin page ready after powering the pi2.
 
