@@ -25,7 +25,6 @@ Change to make to accord your installation:
 
 In /etc/domoweb.cfg line 5 change rest_url to your pi2 IP.
 
-In /etc/domogik/domogik-mq-cfg change ip by your pi2 IP.
 
 Almost all plugins are install with this version in dev branch.
 
