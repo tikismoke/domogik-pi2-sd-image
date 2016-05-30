@@ -1,14 +1,13 @@
 # Domogik-pi2-sd-image from DEVELOP branch
 
 For now you need at least a 4go sd card. The image could work on a 2go but has not been test for that.
-Don't forget for now it is just a proof of concept. It hasn't been test for long running period.
+Don't forget for now it is just a proof of concept, it hasn't been test for long running period.
 
 Almost all plugins are install with this version in dev branch.
 
 Based on last Raspbian-jessie-lite (2016-05-10)
 
-SSH enable by default
-Dhcp enable
+SSH enable by default & dhcp enable
 
 ##First boot after burning the card:
 
@@ -27,7 +26,7 @@ Domogik/Domoweb use default port (40406/40404), no ssl, and default login/passwo
 User/password for ssh:
 pi/raspberry
 
-User domoweb as domopass as password
+User domoweb as password *domopass*
 
 ##Change to make to accord your installation:
 
