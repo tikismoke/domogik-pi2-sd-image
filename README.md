@@ -50,3 +50,11 @@ Mysql db root password is *domopass*
 
 Tuning mysql with information took here:
 http://workshop.botter.ventures/2014/02/09/how-to-install-and-optimize-mysql-on-raspberry-pi/
+
+##Hardware information:
+
+I have test it on a pi1 model B (1st gen), it is working but really not useable at all.
+
+Recommended at least a pi2 model B.
+
+It has not been test on a pi3 model B until someone as one and validate it.
