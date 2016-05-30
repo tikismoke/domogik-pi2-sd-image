@@ -38,7 +38,7 @@ http://docs.domogik.org/domogik/develop/en/enduser/installation/index.html#insta
 
 $ cd /opt/dmg/domogik/
 
-$ sudo ./install.py --dist-packages
+$ sudo ./install.py
 
 $ sudo /etc/init.d/domogik restart
 
