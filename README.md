@@ -1,9 +1,13 @@
 # domogik-pi2-sd-image
 
+Repo to host the pi2 sd card of domogik in develop branch
+
 For now you need at least a 4go sd card. The image could work on a 2go but as not been test for that.
 Don't forget for now it is just a proof of concept. It hasn't been test for long running period.
 
-Repo to host the pi2 sd card of domogik in deve branch
+Based on last Raspbian-jessie-lite (2016-05-10)
+
+Remenber to expand filesysem at first boot with raspi-config
 
 SSH enable by default
 Dhcp enable
@@ -21,34 +25,9 @@ Change to make to accord your installation:
 
 In /etc/domoweb.cfg line 5 change rest_url to your pi2 IP.
 
-In /etc/domogik/domogik-mq-cfg change ip by your pi2 IP
+In /etc/domogik/domogik-mq-cfg change ip by your pi2 IP.
 
-
-Plugin install with this version:
-
--diskfree
-
--generic
-
--karotz
-
--nabaztag
-
--notify
-
--ozwave
-
--ping
-
--script
-
--vdevice
-
--wheather
-
--wol
-
-https://snag.gy/PiFH6L.jpg
+Almost all plugins are install with this version in dev branch.
 
 
 Tuning mysql from there:
