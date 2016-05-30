@@ -1,6 +1,7 @@
 # domogik-pi2-sd-image
 
-For now you need an 8go SD card, but it will be solved a day.
+For now you need at least a 4go sd card. The image could work on a 2go but as not been test for that.
+Don't forget for now it is just a proof of concept. It hasn't been test for long running period.
 
 Repo to host the pi2 sd card of domogik in deve branch
 
