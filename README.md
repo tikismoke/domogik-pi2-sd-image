@@ -1,11 +1,18 @@
-# domogik-pi2-sd-image
+# Domogik-pi2-sd-image from DEVELOP branch
 
 For now you need at least a 4go sd card. The image could work on a 2go but has not been test for that.
 Don't forget for now it is just a proof of concept. It hasn't been test for long running period.
 
+Almost all plugins are install with this version in dev branch.
+
 Based on last Raspbian-jessie-lite (2016-05-10)
 
-Remenber to expand filesysem at first boot:
+SSH enable by default
+Dhcp enable
+
+##First boot after burning the card:
+
+Expand filesysem:
 
 - Connect a keyboard and a screen to the pi2, login as pi/raspberry, sudo raspi-config and expand filesystem.
 - It could be slow to login on 1st boot don't worry. After that reboot to aplly new filesystem.
@@ -13,8 +20,7 @@ Remenber to expand filesysem at first boot:
 
 For me it tooks ~1 and 2 minutes to have the domogik admin page ready after powering the pi2.
 
-SSH enable by default
-Dhcp enable
+##Default value:
 
 Domogik/Domoweb use default port (40406/40404), no ssl, and default login/password (admin/123)
 
@@ -23,15 +29,23 @@ pi/raspberry
 
 User domoweb as domopass as password
 
-Mysql db root password domopass
+##Change to make to accord your installation:
 
-Change to make to accord your installation:
+***In /etc/domoweb.cfg line 5 change rest_url to your pi2 IP.***
 
-In /etc/domoweb.cfg line 5 change rest_url to your pi2 IP.
+##If domogik don't start automatically re-run the installation:
 
+http://docs.domogik.org/domogik/develop/en/enduser/installation/index.html#install-domogik
 
-Almost all plugins are install with this version in dev branch.
+$ cd /opt/dmg/domogik/
 
+$ sudo ./install.py --dist-packages
 
-Tuning mysql from there:
+$ sudo /etc/init.d/domogik restart
+
+##Mysql part:
+
+Mysql db root password is *domopass*
+
+Tuning mysql with information took here:
 http://workshop.botter.ventures/2014/02/09/how-to-install-and-optimize-mysql-on-raspberry-pi/
