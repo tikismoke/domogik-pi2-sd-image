@@ -1,6 +1,6 @@
 # domogik-pi2-sd-image
 
-For now you need at least a 4go sd card. The image could work on a 2go but as not been test for that.
+For now you need at least a 4go sd card. The image could work on a 2go but has not been test for that.
 Don't forget for now it is just a proof of concept. It hasn't been test for long running period.
 
 Based on last Raspbian-jessie-lite (2016-05-10)
