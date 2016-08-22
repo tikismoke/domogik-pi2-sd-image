@@ -57,4 +57,4 @@ I have test it on a pi1 model B (1st gen), it is working but really not useable 
 
 Recommended at least a pi2 model B.
 
-It has not been test on a pi3 model B until someone as one and validate it.
+It has been test and validate on a pi3 by dertione here : https://github.com/domogik/domogik/issues/324#issuecomment-241289542
